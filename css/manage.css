@@ -1,0 +1,178 @@
+body{
+	background: #ECECEC;
+}
+.headerBox{
+	padding:0.2rem 0 0 0.2rem;
+	background: #fff;
+}
+.manageBox{
+	background: #fff;
+}
+.manageBox h3{
+	font-size:0.15rem
+}
+.manageBox p{
+	margin:0.1rem 0;
+	font-size:0.14rem;
+	color:#666;
+}
+.manageBox p em{
+	font-style: normal;
+	display: inline-block;
+	margin-right:0.1rem
+}
+.mackbg,.mackbg2{
+	background: rgb(0, 0, 0);
+    opacity: 0.5;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display:none;
+    z-index:998
+}
+/*待开始*/
+.nostart p{
+	color:#666
+}
+.nostart .start{
+	color:#666;
+}
+.nostart .stop{
+	color:#ccc;
+}
+.nostart .end{
+	color:#ccc
+}
+ /*进行中*/
+.woking p{
+	color:#008000;
+}
+.woking .start{
+	color:#ccc;
+}
+.woking .stop{
+	color:#666;
+}
+.woking .end{
+	color:#FF0000
+}
+/*暂停中*/
+.stoping .start{
+	color:#666
+}
+.stoping .stop{
+	color:#ccc;
+}
+.stoping .end{
+	color:#FF0000
+}
+.stoping p{
+	color:#ff994f
+}
+/*结束*/
+.ending .start{
+	color:#ccc
+}
+.ending .stop{
+	color:#ccc;
+}
+.ending .end{
+	color:#ccc
+}
+.ending .continue{
+	color:#ccc
+}
+.ending p{
+	color:#FF0000
+}
+.continueing .continue{
+    color:#ccc;
+}
+.continueing .stop {
+    color:#666;
+}
+.continueing .end {
+    color:#FF0000;
+}
+.operateBox{
+	border-top:1px solid #ececec;
+	display:-webkit-box;
+}
+.operateBox li{
+	-webkit-box-flex: 1;
+	text-align: center;
+	border-right:1px solid #ececec;
+	border-bottom: none;
+	height:0.4rem;
+	line-height: 0.4rem;
+	font-size:0.14rem
+}
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+.manageBox{
+	margin-top:0.2rem ;
+}
+.continue{
+	display: none;
+}
+.operateBox li:active{
+	background: #abcdef;
+	color:#fff;
+}
+.loading{width:.64rem;height:.64rem;position:absolute;left:50%;margin-left:-0.32rem;top:2rem;z-index:1000;display:none}
+.loading img{width:100%;}
+.changeVotePop{
+    background: #fff;
+    width:86%;
+    position: fixed;
+    top:2rem;
+    left:50%;
+    margin-left:-43%;
+    z-index:999;
+    border-radius: 0.05rem;
+    display: none;
+}
+.operateBtnBox{
+    padding:0.1rem 0 0.2rem;
+    margin:0 auto;
+    text-align: center;
+}
+.changeVotePop h3{
+    font-weight: normal;
+    text-align: center;
+    padding:0.2rem 0 0.1rem;
+    color:#333;
+    font-size:0.18rem;
+}
+.changeVotePop h3 span{
+    display: inline-block;
+    font-size:0.16rem;
+    margin-bottom: 0.05rem
+}
+.operateBtnBox a{
+    display: inline-block;
+    height:0.35rem;
+    width:0.9rem;
+    text-align: center;
+    line-height: 0.35rem;
+    font-size:0.15rem;
+    border-radius: 0.2rem;
+}
+.operateBtnBox .sureBtn{
+    background:#8e5f25;
+    color:#fff;
+}
+.operateBtnBox .releseBtn{
+    background: #e2b66b;
+    color:#704209;
+    margin-left:0.15rem;
+}
+.stateWord{
+    display: inline-block;
+    margin-left:0.05rem;
+    font-style: normal;
+}

@@ -5,10 +5,10 @@ var nowIndex = '';
 var swiper = '';
 var clikFlag = true;
 //var timer = null;
-//var domain = 'http://vote.beibeiyue.com/vote';
-var domain = 'http://192.168.1.159:8090';
+//var domain = 'http://vote.beibeiyue.com/vote';      //线上
+//var domain = 'http://192.168.1.159:8090';           //本地
 //http://vote.beibeiyue.com/vote;
-//http://101.200.177.83:7993/vote 测试
+var domain ="http://101.200.177.83:7993/vote"    //测试
 //var domain = 'http://101.200.177.83:7993/vote';
 $(function () {
 		/***获取候选人列表***/

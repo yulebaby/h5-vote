@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*CSS reset for mobile*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,i,dl,
+dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,
+aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,
+audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+html,body,form,fieldset,p,div,
+h1,h2,h3,h4,h5,h6 {
+  -webkit-text-size-adjust: none;
+  font-family: inherit;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section 
+{
+  display: block;
+}
+body {
+  font-family: Microsoft YaHei, "Droid Sans", "Droid Sans Fallback", "Heiti SC", Helvetica, sans-self;
+  color: #000;
+  tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-size:0.12rem;
+}
+ol,ul,li {  list-style: none;}
+textarea {  width: 100%;  vertical-align: middle;}}
+del {  text-decoration: line-through;}
+table {  border-collapse: collapse;  border: 0;}
+i {  vertical-align: middle;}
+button {
+  cursor: pointer;text-align: center;vertical-align: middle;
+}
+a {  text-decoration: none;}
+input,textarea,select,option ,button
+{
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  padding:0;margin:0;
+  /*-webkit-appearance: none;*/
+}
+a{color: #1f1f1f;}
+/* 公用*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {zoom: 1;}
+.fl {float: left;}
+.fr {float: right;}
+/*.mainWrap{max-width: 640px;margin:0 auto;}*/

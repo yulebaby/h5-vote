@@ -1,0 +1,298 @@
+body{
+	background: #090807;
+}
+.mackbg{
+	background: rgb(0, 0, 0);
+    opacity: 0.5;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display:none;
+    z-index:998
+}
+.loading{width:.64rem;height:.64rem;position:absolute;left:50%;margin-left:-0.32rem;top:2rem;z-index:1000;display:none}
+.loading img{width:100%;}
+.voteDataBox{
+	position: relative;
+}
+.voteDataBox ul {
+    width:86%;
+	height:0.7rem;
+	position: absolute;
+	top:0.8rem;
+	left:50%;
+	margin-left:-42%;
+}
+.voteDataBox li {
+    position: relative;
+    float: left;
+    width: 18%;
+    text-align: center;
+    /*background: #ccc;*/
+    margin-right: 2%;
+    height: 100%;
+    /*-moz-box-flex: 1;
+    -webkit-box-flex: 1;*/
+}
+.histogramBox {
+	position: relative;
+    width: 100%;
+    height: 0;
+    background-color: #6b5531;	 /* Safari 5.1 - 6.0 */
+	  background: -webkit-linear-gradient(#13110f,#6b5531);
+	  background: -moz-linear-gradient(#13110f,#6b5531);
+	  background: -o-linear-gradient(#13110f,#6b5531);
+	  background: -webkit-gradient(linear, 0 0, 0 100%, from(#13110f), to(#6b5531));
+	  background: linear-gradient(#13110f,#6b5531);
+	border:1px solid #a1733d; /* 标准的语法 */
+    position: absolute;
+    bottom: 0;
+}
+.current .histogramBox{
+	background: #f4ca58;
+	opacity: 0.7;
+}
+.voteDataBox li span {
+	color: #e2b56a;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -0.2rem;
+    font-size:0.1rem;
+    font-weight: bold;
+}
+.voteDataBox img,.inforBox img{
+	display: block;
+	width: 100%;
+}
+.voteName{
+	font-size:0.1rem;
+	color:#796138;
+	position: absolute;
+	bottom: -0.2rem;
+	width:100%;
+}
+.current p{
+	color: #f4ca58;
+}
+.voteDetailsBox{
+	position: absolute;
+	z-index:999;
+	left:0.2rem;
+	top:0.3rem;
+}
+.voteDetailsBox h3{
+	color:#fff;
+	font-size:0.1rem
+}
+.voteDetailsBox h3 em{
+	font-size:0.3rem;
+	font-style: normal;
+}
+.card{
+	color:#be8c39;
+	font-size:0.1rem;
+	margin:0.02rem 0;
+	line-height:0.18rem
+}
+.personName{
+	font-size:0.16rem;
+	color:#fff;
+}
+.inforBox{
+	position:relative
+}
+.introduction{
+	position: absolute;
+	width:76%;
+	left:50%;
+	margin-left:-38%;
+	top:0.4rem;
+	color:#d1a04e;
+	font-size:0.1rem
+}
+.introduction p{
+	height: 1.8rem;
+	overflow: auto;
+	display: none;
+}
+.introduction p span{
+	display: block;
+	text-indent: 0.1rem;
+	margin-top:0.05rem
+}
+.voteBtn{
+	position: absolute;
+	bottom:-0.18rem;
+	width:54%;
+	left:50%;
+	margin-left: -27%;
+	z-index:999
+}
+.voteBtn img{
+	display: block;
+	width:100%;
+}
+.voteBtn .lightBtn{
+	display: none;
+}
+.voteBtn .grayBtn{
+	display: none;
+}
+.swiper-pagination{
+	opacity: 0;
+}
+@-webkit-keyframes scaleing{ 
+	0%{ 
+		-webkit-transform:scale(1.5,1.5);
+	} 
+	100%{ 
+		-webkit-transform:scale(1,1);
+	} 
+} 
+@keyframes scaleing{ 
+	0%{ 
+		transform:scale(1.2,1.2);
+	} 
+	100%{ 
+		transform:scale(1,1);
+	} 
+}
+@-webkit-keyframes twinkling{ 
+	0%{ 
+	opacity: 0.5; 
+	} 
+	100%{ 
+	opacity: 1; 
+	} 
+} 
+@keyframes twinkling{ 
+	0%{ 
+	opacity: 0.5; 
+	} 
+	100%{ 
+	opacity: 1; 
+	} 
+}
+.zan{
+	width:40%;
+	position: fixed;
+	left:50%;
+	top:2rem;
+	margin-left:-20%;
+	z-index:999;
+	display: none;
+}
+.zan img{
+	display: block;
+	width:100%;
+	-webkit-animation: scaleing .5s 1 ease-in-out;
+}
+.zan .star1{
+	width:0.13rem;
+	height:0.13rem;
+	position: absolute;
+	top:0.1rem;
+	left:0.1rem;
+	-webkit-animation: twinkling 1s infinite ease-in-out 
+}
+.zan .star2{
+	width:0.1rem;
+	height:0.1rem;
+	position: absolute;
+	top: 0.52rem;
+    left: 1.06rem;
+    -webkit-animation: twinkling 1.3s infinite ease-in-out 
+}
+.zan .star3{
+	width:0.1rem;
+	height:0.1rem;
+	position: absolute;
+	top: 0.48rem;
+    left: 0.22rem;
+    -webkit-animation: twinkling 1.8s infinite ease-in-out 
+}
+.zan .star4{
+	width:0.17rem;
+	height:0.17rem;
+	position: absolute;
+	top: -0.1rem;
+    left: 0.8rem;
+     -webkit-animation: twinkling 1.5s infinite ease-in-out 
+}
+.zan .star5{
+	width:0.1rem;
+	height:0.1rem;
+	position: absolute;
+	top: 0.25rem;
+    left: 0.6rem;
+    -webkit-animation: twinkling 1.7s infinite ease-in-out 
+}
+.zan .star6{
+	width:0.05rem;
+	height:0.05rem;
+	position: absolute;
+	top: 0.5rem;
+    left: 1rem;
+    -webkit-animation: twinkling 1s infinite ease-in-out 
+}
+.votePopBox{
+	position: fixed;
+	background: url(../images/popbg.png) no-repeat;
+	width:80%;
+	height:2.6rem;
+	background-size:100% 100% ;
+	top:50%;
+	left:50%;
+	margin-left:-40%;
+	top:1.5rem;
+	z-index:999;
+	display: none;
+}
+.votePopBox p{
+	text-align: center;
+	padding:0.2rem 0;
+	font-size:0.15rem;
+	color:#333;
+	line-height:0.3rem;
+}
+.votePopBox p span{
+	font-weight: bold;
+	font-size:0.16rem;
+}
+.votePopBox p em{
+	font-style: normal;
+	color:#9a6421
+}
+.sureVote{
+	margin:0.05rem auto;
+	width:1.3rem;
+	height:0.36rem;
+	text-align: center;
+	line-height:0.36rem;
+	color:#704209;
+	background:#e2b66b;
+	font-size:0.15rem;
+	font-weight: bold;
+	border-radius: 0.2rem;
+}
+.closeBtn{
+	position: absolute;
+	width:0.23rem;
+	height:0.23rem;
+	left:50%;
+	bottom:0;
+	margin-left:-0.115rem;
+}
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+@media only screen and (width: 375px) and (height: 690px){
+    body {
+        background: #090807;
+    }
+}
