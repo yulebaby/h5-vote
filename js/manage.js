@@ -1,7 +1,7 @@
 //var domain = 'http://192.168.1.159:8090';
 //http://vote.beibeiyue.com/vote
-var domain ="http://101.200.177.83:7993/vote"
-//var domain = 'http://vote.beibeiyue.com/vote';
+//var domain ="http://101.200.177.83:7993/vote"
+var domain = 'http://vote.beibeiyue.com/vote';
 $(function(){
 	 /****通过code获得userid，userid在投票接口，修改活动状态接口需要用到****/
 	
