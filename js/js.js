@@ -111,7 +111,7 @@ $(function () {
 			            '<div class="voteDetailsBox">'+
 			                '<h3 class="voteCounts"><em>'+voteObj[j].ticketCount+'</em>票</h3>'+
 			                '<input type="hidden" value="'+voteObj[j].candidateId+'"/>'+
-			                '<p class="card">活力之星候选人<br>'+voteObj[j].department+'</p>'+
+			                '<p class="card">拼搏之星候选人<br>'+voteObj[j].department+'</p>'+
 			                '<p class="personName">'+voteObj[j].name+'</p></div></div>'
 		        }
 		        $('.swiper-wrapper').html(html);
