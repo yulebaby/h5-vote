@@ -74,7 +74,7 @@ function getUserid(code){
      	dataType:'json',
      	type:'get',
      	async:true,
-     	data:{code:code,activeCode:'201806'},
+     	data:{code:code,activeCode:'201807'},
      	beforeSend:function(res){
      		$('.loading,.mackbg2').show();
      	},
@@ -165,7 +165,7 @@ function getState(){
      	dataType:'json',
      	type:'get',
      	async:true,
-     	data:{activeCode:'201806'},
+     	data:{activeCode:'201807'},
      	beforeSend:function(res){
      		$('.loading,.mackbg2').show();
      		var date = new Date();
@@ -237,7 +237,7 @@ function changestatusFn(userid,state){
 	     	dataType:'json',
 	     	type:'post',
 	     	async:true,
-	     	data:{userid:userid,activeCode:'201806',state:state},
+	     	data:{userid:userid,activeCode:'201807',state:state},
 	     	beforeSend:function(res){
 	     	},
 	     	success:function(res){

@@ -88,7 +88,7 @@ $(function () {
 	     	dataType:'json',
 	     	type:'get',
 	     	async:true,
-	     	data:{activeCode:'201806'},
+	     	data:{activeCode:'201807'},
 	     	beforeSend:function(res){
 	     		$('.loading,.mackbg').show();
 	     	},
@@ -111,7 +111,7 @@ $(function () {
 			            '<div class="voteDetailsBox">'+
 			                '<h3 class="voteCounts"><em>'+voteObj[j].ticketCount+'</em>票</h3>'+
 			                '<input type="hidden" value="'+voteObj[j].candidateId+'"/>'+
-			                '<p class="card">拼搏之星候选人<br>'+voteObj[j].department+'</p>'+
+			                '<p class="card">责任之星候选人<br>'+voteObj[j].department+'</p>'+
 			                '<p class="personName">'+voteObj[j].name+'</p></div></div>'
 		        }
 		        $('.swiper-wrapper').html(html);
@@ -189,7 +189,7 @@ $(function () {
 	     	dataType:'json',
 	     	type:'get',
 	     	async:true,
-	     	data:{code:code,activeCode:'201806'},
+	     	data:{code:code,activeCode:'201807'},
 	     	beforeSend:function(res){
 	     		$('.loading,.mackbg').show();
 	     	},
@@ -216,7 +216,7 @@ $(function () {
 	     	dataType:'json',
 	     	type:'get',
 	     	async:true,
-	     	data:{activeCode:'201806'},
+	     	data:{activeCode:'201807'},
 //	     	beforeSend:function(res){
 //	     		$('.loading,.mackbg').show();
 //	     	},
@@ -282,7 +282,7 @@ $(function () {
 	     	dataType:'json',
 	     	type:'post',
 	     	async:true,
-	     	data:{userid:userid,candidateId:candidateId,activeCode:'201806'},
+	     	data:{userid:userid,candidateId:candidateId,activeCode:'201807'},
 	     	beforeSend:function(res){
 	     		$('.loading,.mackbg').show();
 	     	},
@@ -341,7 +341,7 @@ $(function () {
 	     	dataType:'json',
 	     	type:'get',
 	     	async:true,
-	     	data:{activeCode:'201806'},
+	     	data:{activeCode:'201807'},
 	     	beforeSend:function(res){
 	     		$('.loading,.mackbg').show();
 	     	},
@@ -384,7 +384,7 @@ $(function () {
 	     	dataType:'json',
 	     	type:'get',
 	     	async:true,
-	     	data:{activeCode:'201806'},
+	     	data:{activeCode:'201807'},
 	     	beforeSend:function(res){
 	     		$('.loading,.mackbg').show();
 	     	},
@@ -479,7 +479,7 @@ $(function () {
 	     	dataType:'json',
 	     	type:'get',
 	     	async:true,
-	     	data:{activeCode:'201806'},
+	     	data:{activeCode:'201807'},
 	     	success:function(res){
 	     		var voteObj = res.result;
 		        var voteData = [];
